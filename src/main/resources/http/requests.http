@@ -1,0 +1,26 @@
+POST http://localhost/signIn
+Content-Type: application/json
+
+{
+  "email": "egorfineev@gmail.com",
+  "password": "e552356f"
+}
+
+###
+GET http://localhost/myProfile
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwibmFtZSI6IkFydGVtIiwicm9sZSI6IlVTRVIifQ.66JOYd6E1BaPuQR3eMaT4_S2qxxqG2gBE2CxrySrp4E
+
+###
+GET http://localhost/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwibmFtZSI6IkFydGVtIiwicm9sZSI6IlVTRVIifQ.66JOYd6E1BaPuQR3eMaT4_S2qxxqG2gBE2CxrySrp4E
+
+###
+POST http://localhost/editDataProfile
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI3IiwibmFtZSI6IkFydGVtIiwicm9sZSI6IlVTRVIifQ.66JOYd6E1BaPuQR3eMaT4_S2qxxqG2gBE2CxrySrp4E
+
+
+{
+   "email" : "goga0092@gmail.com"
+}
+
+###
